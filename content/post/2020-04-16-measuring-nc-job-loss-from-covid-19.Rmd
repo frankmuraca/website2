@@ -1,0 +1,13 @@
+---
+title: Measuring NC job loss from Covid-19
+author: Frank Muraca
+date: '2020-04-16'
+slug: measuring-nc-job-loss-from-covid-19
+categories: []
+tags: []
+description: ''
+---
+
+
+In mid-April the Urban Institute [released new estimates](https://datacatalog.urban.org/dataset/estimated-low-income-jobs-lost-covid-19) of the number of low-income jobs (<$40k salary) lost as a result of Covid-19. The estimates rely on three sources of data - the BLS, Washington State Employment Security Deparment, and 2017 LODES data - to predict job loss counts for every census track in the US. Washington State publishes weekly unemployment claims by industry sector and are used for this analysis until the BLS releases national unemployment figures by industry in May. The full methodology is [here.](https://github.com/UrbanInstitute/covid-neighborhood-job-analysis)
+

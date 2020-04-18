@@ -1,15 +1,42 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Frank Muraca</title>
+    <title>Frank Muraca&#39;s Website</title>
     <link>/</link>
-    <description>Recent content on Frank Muraca</description>
+    <description>Recent content on Frank Muraca&#39;s Website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 05 May 2016 21:48:51 -0700</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Measuring NC job loss from Covid-19</title>
+      <link>/2020/04/16/measuring-nc-job-loss-from-covid-19/</link>
+      <pubDate>Thu, 16 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/2020/04/16/measuring-nc-job-loss-from-covid-19/</guid>
+      <description>In mid-April the Urban Institute released new estimates of the number of low-income jobs (&amp;lt;$40k salary) lost as a result of Covid-19. The estimates rely on three sources of data - the BLS, Washington State Employment Security Deparment, and 2017 LODES data - to predict job loss counts for every census track in the US. Washington State publishes weekly unemployment claims by industry sector and are used for this analysis until the BLS releases national unemployment figures by industry in May.</description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>/2020/04/15/test/</link>
+      <pubDate>Wed, 15 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/2020/04/15/test/</guid>
+      <description>df &amp;lt;- c(&amp;quot;hello&amp;quot;)df## [1] &amp;quot;hello&amp;quot;</description>
+    </item>
+    
+    <item>
+      <title>Tracking neighborhood change with igraph</title>
+      <link>/2020/04/15/tracking-neighborhood-change-with-igraph/</link>
+      <pubDate>Wed, 15 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/2020/04/15/tracking-neighborhood-change-with-igraph/</guid>
+      <description>Tax parcels are a great way to</description>
+    </item>
     
     <item>
       <title>A Plain Markdown Post</title>
@@ -27,7 +54,8 @@
       <pubDate>Thu, 05 May 2016 21:48:51 -0700</pubDate>
       
       <guid>/about/</guid>
-      <description>This is a &amp;ldquo;hello world&amp;rdquo; example website for the blogdown package. The theme was forked from @jrutheiser/hugo-lithium-theme and modified by Yihui Xie.</description>
+      <description>Hi! My name is Frank Muraca. I&amp;rsquo;m an analyst at the Development Finance Initiative (DFI) at UNC-Chapel Hill&amp;rsquo;s School of Government.This started this blog to write more about issues related to affordable housing policy, community development, and finance. It also hosts some of my data projects related to these topics.
+I graduated in 2020 from UNC with a master&amp;rsquo;s in city planning. Before that, I lived and taught in Jiangsu Province, China and wrote about issues related to how China&amp;rsquo;s cities interact with their migrant populations.</description>
     </item>
     
     <item>

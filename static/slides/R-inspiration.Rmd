@@ -1,0 +1,92 @@
+---
+title: "R Inspiration Atlas"
+subtitle: "for visualizations and techniques"
+author: "Frank Muraca"
+institute: "frankmuraca.netlify.app"
+date: "2020-04-17 (Updated: `r Sys.Date()`)"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      beforeInit: "https://platform.twitter.com/widgets.js"
+---
+# What's here?
+
+[On Twitter](https://twitter.com/search?q=%23Rstats&src=typed_query), I come across **a ton** of visualizations, techniques, and tips on how to creatively and effectively communicate data using `R`. 
+
+Often times when I come across these links or images, I just screenshot them or keep them open on a tab for. ever. 
+
+This slidedeck is a compilation of those resources for myself and (hopefully) for others! 
+
+
+---
+class: inverse, center, middle
+
+# Visualizations
+
+--- 
+## Adding maginal plots
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Small pleasures today: learning to use <a href="https://twitter.com/hashtag/rstats?src=hash&amp;ref_src=twsrc%5Etfw">#rstats</a> cowplot to add marginal plots to my figures. Found this tutorial by <a href="https://twitter.com/lpreding?ref_src=twsrc%5Etfw">@lpreding</a> super helpful:<a href="https://t.co/1FVdoHisJd">https://t.co/1FVdoHisJd</a> <a href="https://t.co/5caeXZxG40">pic.twitter.com/5caeXZxG40</a></p>&mdash; Kaija Gahm (@kaija_bean) <a href="https://twitter.com/kaija_bean/status/1247568735004590082?ref_src=twsrc%5Etfw">April 7, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+---
+## gghighlight
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">📦gghighlight📦is a delight. Thank you <a href="https://twitter.com/yutannihilat_en?ref_src=twsrc%5Etfw">@yutannihilat_en</a> 🥳🎉!!! <br><br>Check out some cool added features in gghighlight 0.2.0: <a href="https://t.co/YV1BrVYPR6">https://t.co/YV1BrVYPR6</a> <a href="https://twitter.com/hashtag/rstats?src=hash&amp;ref_src=twsrc%5Etfw">#rstats</a> <a href="https://t.co/dIANwfOZsn">pic.twitter.com/dIANwfOZsn</a></p>&mdash; Allison Horst (@allison_horst) <a href="https://twitter.com/allison_horst/status/1248765119334498305?ref_src=twsrc%5Etfw">April 11, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+---
+## Show rank over time w/ geom_bump
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">A new geom for ggplot, geom_bump shows rank over time. Check it out on github. <a href="https://twitter.com/hashtag/rstats?src=hash&amp;ref_src=twsrc%5Etfw">#rstats</a> <a href="https://twitter.com/hashtag/dataviz?src=hash&amp;ref_src=twsrc%5Etfw">#dataviz</a> <a href="https://t.co/mjJclPPoua">https://t.co/mjJclPPoua</a> <a href="https://t.co/U1jNAY0aX3">pic.twitter.com/U1jNAY0aX3</a></p>&mdash; David Sjöberg (@davsjob) <a href="https://twitter.com/davsjob/status/1231958958761484290?ref_src=twsrc%5Etfw">February 24, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+---
+## Exploring census tracts with Mapbox
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">In the GitHub version of <a href="https://twitter.com/hashtag/rstats?src=hash&amp;ref_src=twsrc%5Etfw">#rstats</a> tidycensus, you can now grab ACS data + geometry for all 74,000 Census tracts in the US, explorable on a <a href="https://twitter.com/Mapbox?ref_src=twsrc%5Etfw">@Mapbox</a> map with mapdeck <a href="https://t.co/rCUP8QKv6m">https://t.co/rCUP8QKv6m</a> <a href="https://t.co/1wxESbaG7T">pic.twitter.com/1wxESbaG7T</a></p>&mdash; Kyle Walker (@kyle_e_walker) <a href="https://twitter.com/kyle_e_walker/status/1250879454848716800?ref_src=twsrc%5Etfw">April 16, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+---
+## UpSet Plots > Venn diagrams
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">UpSet plots are often much better than overburdened Venn diagrams when it comes to visualizing combinations of elements. Here&#39;s a worked example with data on the relative co-occurrence of various COVID-19 symptoms: <a href="https://t.co/OleNUPIsnE">https://t.co/OleNUPIsnE</a> <a href="https://t.co/qaxWXQFtKi">pic.twitter.com/qaxWXQFtKi</a></p>&mdash; Kieran Healy (@kjhealy) <a href="https://twitter.com/kjhealy/status/1250887795096379394?ref_src=twsrc%5Etfw">April 16, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+---
+## Create color scale from unique color
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">A little <a href="https://twitter.com/rstudio?ref_src=twsrc%5Etfw">@rstudio</a> add-in to create color scale from a unique color, because it&#39;s always fun to manipulate colors ! 🎨😁 <a href="https://twitter.com/hashtag/rstats?src=hash&amp;ref_src=twsrc%5Etfw">#rstats</a> <a href="https://twitter.com/hashtag/rshiny?src=hash&amp;ref_src=twsrc%5Etfw">#rshiny</a> <a href="https://t.co/CrnonoUiMm">https://t.co/CrnonoUiMm</a> <a href="https://t.co/0bo9g0UKNA">pic.twitter.com/0bo9g0UKNA</a></p>&mdash; dreamRs (@dreamRs_fr) <a href="https://twitter.com/dreamRs_fr/status/1250708416999436290?ref_src=twsrc%5Etfw">April 16, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+---
+
+class: inverse, center, middle
+
+# Techniques
+
+
+---
+## Census Microdata w/ Tidycensus (soon)
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">It&#39;s not ready for use yet, but <a href="https://twitter.com/uscensusbureau?ref_src=twsrc%5Etfw">@uscensusbureau</a> microdata access is coming to <a href="https://twitter.com/hashtag/rstats?src=hash&amp;ref_src=twsrc%5Etfw">#rstats</a> tidycensus in the near future... <a href="https://t.co/C2wgYXA9Pj">pic.twitter.com/C2wgYXA9Pj</a></p>&mdash; Kyle Walker (@kyle_e_walker) <a href="https://twitter.com/kyle_e_walker/status/1250883229466451974?ref_src=twsrc%5Etfw">April 16, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+
+---
+## Apply functions to column*S*!
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Excited about the very friendly dplyr::across() function in dplyr 1.0.0 🔥🤩 Thank you <a href="https://twitter.com/romain_francois?ref_src=twsrc%5Etfw">@romain_francois</a> <a href="https://twitter.com/hadleywickham?ref_src=twsrc%5Etfw">@hadleywickham</a> &amp; other contributors for this new jewel 💎 <a href="https://t.co/0sZf3tyH4B">https://t.co/0sZf3tyH4B</a><a href="https://twitter.com/hashtag/rstats?src=hash&amp;ref_src=twsrc%5Etfw">#rstats</a> <a href="https://t.co/vELx0IDg38">pic.twitter.com/vELx0IDg38</a></p>&mdash; Allison Horst (@allison_horst) <a href="https://twitter.com/allison_horst/status/1247188988672143360?ref_src=twsrc%5Etfw">April 6, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+---
+## Using (/explaining) k-means clustering - thread! 
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">(caveat caveat caveat)<br><br>...some in progress drawings for k-means clustering with friendly fuzzy teaching assistants 👾👾👾 <a href="https://t.co/gFV7H7T284">pic.twitter.com/gFV7H7T284</a></p>&mdash; Allison Horst (@allison_horst) <a href="https://twitter.com/allison_horst/status/1250477975130140672?ref_src=twsrc%5Etfw">April 15, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+---
+## Rounding Numbers
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">In the GitHub version of <a href="https://twitter.com/hashtag/rstats?src=hash&amp;ref_src=twsrc%5Etfw">#rstats</a> tidycensus, you can now grab ACS data + geometry for all 74,000 Census tracts in the US, explorable on a <a href="https://twitter.com/Mapbox?ref_src=twsrc%5Etfw">@Mapbox</a> map with mapdeck <a href="https://t.co/rCUP8QKv6m">https://t.co/rCUP8QKv6m</a> <a href="https://t.co/1wxESbaG7T">pic.twitter.com/1wxESbaG7T</a></p>&mdash; Kyle Walker (@kyle_e_walker) <a href="https://twitter.com/kyle_e_walker/status/1250879454848716800?ref_src=twsrc%5Etfw">April 16, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+---
+
+class: center, middle
+
+# Thanks!
+
+## Other suggestions? Send an email to fmuraca@unc.edu
+
+Slides created via the R package [**xaringan**](https://github.com/yihui/xaringan).
+
+
