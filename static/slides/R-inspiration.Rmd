@@ -27,8 +27,8 @@ class: inverse, center, middle
 
 # Visualizations
 
---- 
-## Adding maginal plots
+---
+## Adding marginal plots
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Small pleasures today: learning to use <a href="https://twitter.com/hashtag/rstats?src=hash&amp;ref_src=twsrc%5Etfw">#rstats</a> cowplot to add marginal plots to my figures. Found this tutorial by <a href="https://twitter.com/lpreding?ref_src=twsrc%5Etfw">@lpreding</a> super helpful:<a href="https://t.co/1FVdoHisJd">https://t.co/1FVdoHisJd</a> <a href="https://t.co/5caeXZxG40">pic.twitter.com/5caeXZxG40</a></p>&mdash; Kaija Gahm (@kaija_bean) <a href="https://twitter.com/kaija_bean/status/1247568735004590082?ref_src=twsrc%5Etfw">April 7, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ---

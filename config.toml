@@ -1,6 +1,6 @@
 baseurl = "/"
 languageCode = "en-us"
-title = "Frank Muraca's Website"
+title = "Frank Muraca"
 theme = "ghostwriter"
 googleAnalytics = ""
 disqusShortname = ""
@@ -9,19 +9,21 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 [permalinks]
     post = "/:year/:month/:day/:slug/"
 
+
+
 [[menu.main]]
     name = "About"
     url = "/about/"
 [[menu.main]]
-    name = "GitHub"
-    url = "https://github.com/frankmuraca"
+    name = "R Inspiration"
+    url = "https://frankmuraca.netlify.app/slides/r-inspiration.html"
 [[menu.main]]
     name = "Twitter"
     url = "https://twitter.com/frankmuraca"
 
 [params]
     description = "A website built through Hugo and blogdown."
-
+    headline = "Frank Muraca"
     # options for highlight.js (version, additional languages, and theme)
     highlightjsVersion = "9.12.0"
     highlightjsCDN = "//cdnjs.cloudflare.com/ajax/libs"
