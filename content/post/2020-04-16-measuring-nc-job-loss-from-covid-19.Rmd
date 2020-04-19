@@ -7,7 +7,13 @@ categories: []
 tags: []
 description: ''
 ---
-
+Over the past four weeks, more than 20 million people [have filed for unenmployment.](https://www.nytimes.com/2020/04/16/business/economy/unemployment-numbers-coronavirus.html)
 
 In mid-April the Urban Institute [released new estimates](https://datacatalog.urban.org/dataset/estimated-low-income-jobs-lost-covid-19) of the number of low-income jobs (<$40k salary) lost as a result of Covid-19. The estimates rely on three sources of data - the BLS, Washington State Employment Security Deparment, and 2017 LODES data - to predict job loss counts for every census track in the US. Washington State publishes weekly unemployment claims by industry sector and are used for this analysis until the BLS releases national unemployment figures by industry in May. The full methodology is [here.](https://github.com/UrbanInstitute/covid-neighborhood-job-analysis)
 
+Let's see what these estimates mean for 
+
+```{r}
+library()
+
+```
